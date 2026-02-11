@@ -1,5 +1,5 @@
 from .simclr_dataset import SimCLRDataset
-from .retrieval_dataset import RetrievalDataset
 from .matching_dataset import MatchingDataset
+from .pair_dataset import ImagePairDataset
 
-__all__ = ['SimCLRDataset', 'RetrievalDataset', 'MatchingDataset']
+__all__ = ['SimCLRDataset', 'MatchingDataset', 'ImagePairDataset']

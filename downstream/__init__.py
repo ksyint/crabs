@@ -1,4 +1,3 @@
-from . import retrieval
 from . import matching
 
-__all__ = ['retrieval', 'matching']
+__all__ = ['matching']
